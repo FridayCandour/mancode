@@ -25,28 +25,31 @@ export function hook__POST(ctx) {
  * @param {AppCTX} ctx
  */
 export async function hook__PRE(ctx) {
-  let user;
+  let person;
   const cred = ctx.get("x-uiedbook-token");
   const pub_cred = ctx.get("x-pub-uiedbook-token");
   if (cred) {
     const id = auth.verifyRefreshToken(cred);
     if (id) {
-      user = await user.query.findOne(id);
+      person = await user.query.findOne(id);
     }
   }
   if (pub_cred) {
-    const id = auth.verifyRefreshToken(pub_cred);
-    if (id) {
-      user = (await tracking.query.search({ id }))[0];
-      user.tracking = true;
-      ctx.set("x-pub-uiedbook-token", id);
+    const ip = auth.verifyRefreshToken(pub_cred);
+    if (ip) {
+      person = (await tracking.query.search({ ip }))[0];
+      if (person) {
+        person.tracking = true;
+        ctx.set("x-pub-uiedbook-token", pub_cred);
+      }
     }
   }
-  if (!pub_cred && !cred) {
-    const id = auth.newRefreshToken(ctx.request.client.remoteAddress);
-    user = await tracking.query.save({ ip });
+  if (!person) {
+    const ip = ctx.request.client.remoteAddress;
+    const id = auth.newRefreshToken(ip);
+    person = await tracking.query.save({ ip });
     ctx.set("x-pub-uiedbook-token", id);
   }
-  console.log({ user });
-  ctx.app.person = user;
+  console.log(person);
+  ctx.app.person = person;
 }
