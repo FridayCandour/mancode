@@ -1,7 +1,7 @@
 import { SafeToken } from "safetoken";
 import { tracking, user } from "../db/index.js";
 
-/// <reference types="" />
+/** @typedef {import('jetpath').AppCTX} AppCTX */
 
 // auth
 const auth = new SafeToken({ encryptionKey: "lol" });

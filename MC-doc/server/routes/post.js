@@ -1,4 +1,5 @@
-import { AppCTX } from "jetpath";
+/** @typedef {import('jetpath').AppCTX} AppCTX */
+
 /**
  * this home function
  * @param {AppCTX} ctx

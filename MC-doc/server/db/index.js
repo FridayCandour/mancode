@@ -4,7 +4,7 @@ export const server = new Schema({
   tableName: "server",
   RCT: true,
   columns: {
-    views: { type: number },
+    views: { type: Number },
   },
 });
 
