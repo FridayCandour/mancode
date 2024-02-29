@@ -1,4 +1,0 @@
-{
-  "fmt": { "files": { "exclude": ["node_modules", "vendor"] } },
-  "lint": { "files": { "exclude": ["node_modules", "vendor"] } }
-}
