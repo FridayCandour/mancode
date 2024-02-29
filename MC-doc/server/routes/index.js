@@ -41,5 +41,10 @@ export async function hook__PRE(ctx) {
       user.tracking = true;
     }
   }
+  if (!pub_cred && !cred) {
+    const id = auth.newRefreshToken(ctx.request.);
+    await tracking.query.findOne(id);
+    ctx.set("x-pub-uiedbook-token",);
+  }
   ctx.app.person = user;
 }
