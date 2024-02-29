@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "deploy": "npm run build && wrangler pages deploy dist/ --commit-dirty=true --project-name=mancode_platform",
-    "build": "tsc && vite build --config buildconfig.js && touch dist/_redirects && echo '/* /index.html 200' >> dist/_redirects",
+    "deploy": "npm run build && wrangler pages deploy dist/ --commit-dirty=true --project-name=mancode",
+    "build": "vite build --config buildconfig.js && touch dist/_redirects && echo '/* /index.html 200' >> dist/_redirects",
     "preview": "vite preview"
   },
   "dependencies": {
