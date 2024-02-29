@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "exabase": "^0.0.0-rc-09",
+    "jetpath": "^1.2.32"
+  }
 }
