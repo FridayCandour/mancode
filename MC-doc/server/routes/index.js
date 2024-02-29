@@ -35,16 +35,18 @@ export async function hook__PRE(ctx) {
     }
   }
   if (pub_cred) {
-    const id = auth.verifyRefreshToken(cred);
+    const id = auth.verifyRefreshToken(pub_cred);
     if (id) {
-      user = await tracking.query.findOne(id);
+      user = (await tracking.query.search({ id }))[0];
       user.tracking = true;
+      ctx.set("x-pub-uiedbook-token", id);
     }
   }
   if (!pub_cred && !cred) {
-    const id = auth.newRefreshToken(ctx.request.);
-    await tracking.query.findOne(id);
-    ctx.set("x-pub-uiedbook-token",);
+    const id = auth.newRefreshToken(ctx.request.client.remoteAddress);
+    user = await tracking.query.save({ ip });
+    ctx.set("x-pub-uiedbook-token", id);
   }
+  console.log({ user });
   ctx.app.person = user;
 }

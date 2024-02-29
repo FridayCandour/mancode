@@ -22,9 +22,10 @@ export const tracking = new Schema({
   tableName: "tracking",
   RCT: true,
   columns: {
-    country: { type: String },
+    country: { type: String, nullable: true },
     posts: { RelationType: "MANY", target: "post" },
-    meta_data: { type: String },
+    ip: { type: String },
+    meta_data: { type: JSON, nullable: true },
   },
 });
 
@@ -40,5 +41,5 @@ export const user = new Schema({
   },
 });
 
-const db = new Exabase({ schemas: [post] });
+const db = new Exabase({ schemas: [post, tracking, server, user] });
 await db.connect();

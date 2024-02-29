@@ -1,20 +1,20 @@
 
 GET http://localhost:8080/src/asset_files/a.txt HTTP/1.1
-
+x-pub-uiedbook-token: 65e0a110U2FsdGVkX19eI3fBmWtVkHSLewQY45UifcGaU8WvjXlsjmIF0dprQ7CT/4jWv089
 
 
 
 ###
 
 GET http://localhost:8080/home HTTP/1.1
-
+x-pub-uiedbook-token: 65e0a110U2FsdGVkX19eI3fBmWtVkHSLewQY45UifcGaU8WvjXlsjmIF0dprQ7CT/4jWv089
 
 
 
 ###
 
 GET http://localhost:8080/post/home HTTP/1.1
-
+x-pub-uiedbook-token: 65e0a110U2FsdGVkX19eI3fBmWtVkHSLewQY45UifcGaU8WvjXlsjmIF0dprQ7CT/4jWv089
 
 
 
