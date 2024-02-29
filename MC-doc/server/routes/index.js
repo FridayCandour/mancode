@@ -1,6 +1,7 @@
-import { AppCTX } from "jetpath";
 import { SafeToken } from "safetoken";
 import { tracking, user } from "../db/index.js";
+
+/// <reference types="" />
 
 // auth
 const auth = new SafeToken({ encryptionKey: "lol" });
