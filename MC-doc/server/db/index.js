@@ -8,7 +8,7 @@ export const server = new Schema({
   },
 });
 
-export const post = new Schema({
+const post = new Schema({
   tableName: "post",
   RCT: true,
   columns: {
@@ -17,6 +17,7 @@ export const post = new Schema({
     stats: { type: String },
   },
 });
+export default post;
 
 export const tracking = new Schema({
   tableName: "tracking",
