@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "fly deploy",
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +15,8 @@
     "exabase": "^0.0.0-rc-09",
     "jetpath": "^1.2.32",
     "safetoken": "^1.3.11"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.5.2"
   }
 }
