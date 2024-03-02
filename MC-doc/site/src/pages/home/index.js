@@ -1,8 +1,8 @@
 import { Router, Screen, div, h1 } from "cradova";
 
 export const home = new Screen({
-  name: "Mancode forum",
+  name: "Mancode",
   template() {
-    return div(h1("Mancode forum"));
+    return div(h1("Mancode"));
   },
 });
