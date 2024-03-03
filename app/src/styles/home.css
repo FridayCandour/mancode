@@ -109,23 +109,51 @@ body {
 .mc-body-features {
   margin-top: 6rem;
   max-width: 960px;
-  gap: 32px;
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
 }
+.mc-body-features-big {
+  margin-top: 6rem;
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 422px;
+  padding: 60px 0px;
+  border-radius: 20px;
+  gap: 30px;
+  flex-wrap: wrap;
+  box-shadow: 0px 0.5px 0px 0px #ffffff80 inset, 0px -2px 40px 0px #bb9bff26,
+    0px -2px 10px 0px #e9dfff4d;
+}
+.mc-body-features-big .item,
 .mc-body-features .item {
-  width: 560px;
+  max-width: 460px;
+  min-width: 340px;
+  width: 90%;
   height: 320px;
-  padding: 60px;
+  padding: 30px;
   border-radius: 20px;
   gap: 16px;
   box-shadow: 0px 0.5px 0px 0px #ffffff80 inset, 0px -2px 40px 0px #bb9bff26,
     0px -2px 10px 0px #e9dfff4d;
+  display: grid;
+  gap: 12px;
 }
+.mc-body-features-big .item {
+  box-shadow: unset;
+}
+.mc-body-features-big .item h1,
 .mc-body-features .item h1 {
   font-size: 32px;
   font-weight: 500;
   line-height: 42px;
   text-align: left;
 }
+.mc-body-features-big .item p,
 .mc-body-features .item p {
   font-size: 14px;
   font-weight: 400;
@@ -133,6 +161,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
 }
+.mc-body-features-big .item a,
 .mc-body-features .item a {
   font-size: 16px;
   font-weight: 500;
@@ -140,5 +169,6 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: var(---mc-outline);
-  border-bottom: 1px var(---mc-outline) solid;
+  text-decoration: underline;
+  cursor: pointer;
 }
