@@ -1,4 +1,5 @@
-import { a, button, div, h1, p, span } from "cradova";
+import { a, button, div, h1, h2, h4, img, p, span } from "cradova";
+import brandlogos from "../../../assets/Logos.png";
 
 export const homeFeature = div(
   { className: "mc-hero-feature" },
@@ -16,7 +17,15 @@ export const homeFeature = div(
     ),
     div(
       { className: "flex mc-body-features" },
-      div({ className: "item" }),
+      div(
+        { className: "item" },
+        img({ src: "" }),
+        h1("Analytics Dashboard"),
+        p(
+          "Our Analytics Dashboard provides a clear and intuitive interface for you to easily analyze your data. From customizable graphs to real-time data updates, our dashboard offers everything you need to gain valuable insights."
+        ),
+        a("View dashboard")
+      ),
       div({ className: "item" })
     )
   )
