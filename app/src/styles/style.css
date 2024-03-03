@@ -1,9 +1,10 @@
 /* root */
 :root {
-  ---c-outline: #ececec;
-  ---c-outline-lte: #ececec1a;
-  ---c-color: #0b081c;
-  ---c-font-gradient: -webkit-linear-gradient(
+  ---mc-outline: #ececec;
+  ---mc-outline-lte: #ececec1a;
+  ---mc-color: #0b081c;
+  ---mc-bg: #0b0121;
+  ---mc-font-gradient: -webkit-linear-gradient(
     45deg,
     #ececec 72.35%,
     rgba(236, 236, 236, 1) 28.73%
@@ -58,6 +59,12 @@ a {
 .m-4 {
   margin: 4px;
 }
+.m-top-24 {
+  margin-top: 24px;
+}
+.m-top-180 {
+  margin-top: 180px;
+}
 .m-auto {
   margin: auto;
 }
@@ -85,8 +92,8 @@ a {
   gap: 8px;
 }
 .btn-anti {
-  background: var(---c-outline-lte);
-  color: var(---c-outline);
+  background: var(---mc-outline-lte);
+  color: var(---mc-outline);
 }
 .bold {
   font-family: "Fixel-bold";
@@ -100,17 +107,17 @@ a {
 
 /* colors */
 .t-ececec {
-  color: var(---c-outline);
+  color: var(---mc-outline);
 }
 .f-t-0B081C {
-  color: var(---c-color) !important;
+  color: var(---mc-color) !important;
 }
 .t-0B081C {
-  color: var(---c-color);
+  color: var(---mc-color);
 }
 
 .all-t-ececec * {
-  color: var(---c-outline);
+  color: var(---mc-outline);
 }
 
 .container-fluid {

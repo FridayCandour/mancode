@@ -2,11 +2,11 @@
   margin-top: 80px;
 }
 .post-slide {
-  background: var(---c-outline);
+  background: var(---mc-outline);
   margin: 20px 15px 20px;
   border-radius: 15px;
   padding-top: 1px;
-  box-shadow: 0px 14px 22px -9px #bbcbd8;
+  box-shadow: 0px 3px 12px 1px #ececec31;
 }
 .post-slide .post-img {
   position: relative;
@@ -49,11 +49,11 @@
   top: 45%;
   text-align: center;
   display: block;
-  color: var(---c-outline);
+  color: var(---mc-outline);
   font-size: 25px;
 }
 .post-slide .post-content {
-  background: var(---c-outline);
+  background: var(---mc-outline);
   padding: 2px 20px 40px;
   border-radius: 15px;
 }
@@ -96,14 +96,14 @@
 .post-slide .read-more:hover {
   background: #3498db;
   text-decoration: none;
-  color: var(---c-outline);
+  color: var(---mc-outline);
 }
 .owl-controls .owl-buttons {
   text-align: center;
   margin-top: 20px;
 }
 .owl-controls .owl-buttons .owl-prev {
-  background: var(---c-outline);
+  background: var(---mc-outline);
   position: absolute;
   top: -13%;
   left: 15px;
@@ -113,7 +113,7 @@
   transition: background 0.5s ease 0s;
 }
 .owl-controls .owl-buttons .owl-next {
-  background: var(---c-outline);
+  background: var(---mc-outline);
   position: absolute;
   top: -13%;
   right: 15px;

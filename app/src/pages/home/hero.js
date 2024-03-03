@@ -1,5 +1,7 @@
-import { a, button, div, h1, h2, p, span } from "cradova";
+import { a, button, div, h1, img, p, span } from "cradova";
 import { BlogCarousel } from "../../components/carousel";
+
+import heoroimg from "../../../assets/showcase.png";
 
 export const homeHero = div(
   { className: "mc-hero-bg" },
@@ -35,6 +37,10 @@ export const homeHero = div(
         button("Talk to an expert", { className: "btn-anti mc-b" })
       )
     ),
-    BlogCarousel
-  )
+    img({ src: heoroimg, className: "mc-hero-img" }),
+    p("Trusted by teams at over 1,000 of the world’s leading organizations", {
+      className: "m-top-180",
+    })
+  ),
+  BlogCarousel
 );
