@@ -129,6 +129,26 @@ body {
   box-shadow: 0px 0.5px 0px 0px #ffffff80 inset, 0px -2px 40px 0px #bb9bff26,
     0px -2px 10px 0px #e9dfff4d;
 }
+.mc-body-features-big2 {
+  margin-top: 6rem;
+  max-width: 960px;
+  height: 422px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 60px;
+  border-radius: 20px;
+  gap: 16px;
+  flex-direction: column;
+  box-shadow: 0px 0.5px 0px 0px #ffffff80 inset, 0px -2px 40px 0px #bb9bff26,
+    0px -2px 10px 0px #e9dfff4d;
+}
+.mc-body-features-big2 h1 {
+  color: #ececec !important;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
 .mc-body-features-big .item,
 .mc-body-features .item {
   max-width: 460px;

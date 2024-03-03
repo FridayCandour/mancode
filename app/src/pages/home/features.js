@@ -67,6 +67,18 @@ export const homeFeature = div(
         ),
         a("View dashboard")
       )
+    ),
+    div(
+      { className: "mc-body-features-big2" },
+      h1("Our powerful analytics provides invaluable insights."),
+      p(
+        "Unlock the power of data with our cutting-edge analytics product. Get instant insights with our user-friendly Analytics Dashboard, and take advantage of our innovative digital credit tokens to reward your customers and incentivize engagement. "
+      ),
+      a(
+        { href: "/talk" },
+        button("Talk to an expert", { className: "btn-anti mc-b" })
+      )
+      //
     )
   )
 );
