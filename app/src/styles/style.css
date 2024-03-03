@@ -1,7 +1,11 @@
+/* reset */
 body {
   background: #000;
 }
-
+* {
+  /* border: 1px red solid; */
+}
+/* layout */
 .flex {
   display: flex;
 }
@@ -17,12 +21,45 @@ body {
   flex-direction: column;
 }
 
-.t-ececec {
-  color: #ececec;
-}
+/* topography */
 .gap-4 {
   gap: 4px;
 }
+.gap-24 {
+  gap: 24px;
+}
 .m-4 {
   margin: 4px;
+}
+.m-auto {
+  margin: auto;
+}
+.m-x-auto {
+  margin: 0px auto;
+}
+.m-y-auto {
+  margin: auto 0px;
+}
+.t-center {
+  text-align: center;
+}
+
+.all-t-center * {
+  text-align: center;
+}
+
+/* colors */
+
+.t-ececec {
+  color: #ececec;
+}
+.f-t-0B081C {
+  color: #0b081c !important;
+}
+.t-0B081C {
+  color: #0b081c;
+}
+
+.all-t-ececec * {
+  color: #ececec;
 }
