@@ -1,6 +1,10 @@
-import { div, h2 } from "cradova";
+import { div, h1, h2 } from "cradova";
 
 export const homeHero = div(
   { className: "mc-hero-bg" },
-  h2("Modern analytics for the modern world")
+  div(
+    { className: "flex-y" },
+    h1("Modern analytics"),
+    h1("for the modern world")
+  )
 );
