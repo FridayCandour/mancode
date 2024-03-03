@@ -5,15 +5,22 @@
 
 /* branding font  */
 @font-face {
-  font-family: "Fixel";
+  font-family: "Fixel-bold";
   src: url("../../assets/FixelDisplay/FixelDisplay-Black.woff2") format("woff"),
-    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ url("myfont.ttf")
-      format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+    url("../../assets/FixelDisplay/FixelDisplay-Black.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Fixel-regualar";
+  src: url("../../assets/FixelDisplay/FixelDisplay-Regular.woff2")
+      format("woff"),
+    url("../../assets/FixelDisplay/FixelDisplay-Regular.otf") format("opentype");
 }
 
 /* reset */
 body {
   background: #000;
+  font-family: "Fixel-regualar";
 }
 * {
   /* border: 1px red solid; */
@@ -72,4 +79,13 @@ body {
   border-radius: 50px;
   border: 1px;
   gap: 8px;
+}
+.bold {
+  font-family: "Fixel-bold";
+}
+.pointed {
+  cursor: pointer;
+}
+.all-pointed * {
+  cursor: pointer;
 }
