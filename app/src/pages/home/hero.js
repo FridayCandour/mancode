@@ -7,10 +7,18 @@ export const homeHero = div(
     { className: "m-y-auto flex flex-y flex-center gap-24 mc-hero-top" },
     div(
       { className: "m-y-auto flex flex-y flex-center gap-4" },
-      p(
-        "Ticker content c/o ",
-        { className: "mc-hero-ticker" },
-        a({ href: "http://hipsum.co/" }, "Hipsum.co")
+      div(
+        {
+          className: "t-ececec pointed mc-hero-ticker",
+        },
+        div(
+          { className: "ticker" },
+          div(
+            { className: "ticker__item" },
+            span("We just raised $20M in Series B"),
+            a("Learn more")
+          )
+        )
       ),
       h1("Modern technologies", { className: "mc-hero-h1" }),
       h1("for vibrant engineers", { className: "mc-hero-h1" }),
