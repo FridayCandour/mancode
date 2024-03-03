@@ -40,7 +40,7 @@ export const homeHero = div(
     ),
     img({ src: heoroimg, className: "mc-hero-img" }),
     p("Trusted by teams at over 1,000 of the world’s leading organizations", {
-      className: "m-top-180",
+      className: "m-top-12r",
     }),
     img({ src: brandlogos, className: "mc-hero-brands" })
   )

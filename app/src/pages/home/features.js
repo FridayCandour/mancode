@@ -4,14 +4,16 @@ import { BlogCarousel } from "../../components/carousel";
 export const homeFeature = div(
   { className: "mc-hero-feature" },
   div(
-    { className: "m-y-auto flex flex-y flex-center gap-24 mc-hero-top" },
-    h1("for vibrant engineers", { className: "mc-hero-h1" }),
+    { className: "m-y-auto flex flex-y flex-center mc-hero-top" },
     div(
-      { className: "m-y-auto flex flex-y flex-center gap-4" },
-      h1("Modern technologies", { className: "mc-hero-h1" }),
-      h1("for vibrant engineers", { className: "mc-hero-h1" }),
-      p(`A place where vibrant developers collaborate and sell technologies.`),
-      p(`Join now for the next-gen coding experience!.`)
+      { className: "m-y-auto flex flex-y flex-center m-top-12r" },
+      h1("Features that", { className: "mc-hero-h1" }),
+      h1("work for your ", { className: "mc-hero-h1" }),
+      h1("future.", { className: "mc-hero-h1" }),
+      p(
+        "Check out our amazing features and experience the power of Vaultflow for yourself.",
+        { className: "m-top-24" }
+      )
     )
   ),
   BlogCarousel

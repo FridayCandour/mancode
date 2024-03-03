@@ -59,12 +59,7 @@ a {
 .m-4 {
   margin: 4px;
 }
-.m-top-24 {
-  margin-top: 24px;
-}
-.m-top-180 {
-  margin-top: 180px;
-}
+
 .m-auto {
   margin: auto;
 }
@@ -73,6 +68,12 @@ a {
 }
 .m-y-auto {
   margin: auto 0px;
+}
+.m-top-24 {
+  margin-top: 24px;
+}
+.m-top-12r {
+  margin-top: 12rem;
 }
 .t-center {
   text-align: center;
