@@ -18,11 +18,11 @@ export const HomeNav = nav(
     a({ href: "/sign-up" }, span("Pricing")),
     a({ href: "/sign-up" }, span("About us")),
     a(
-      { href: "/sign-up" },
+      { href: "/sign-up", className: "hide-mobile" },
       button("Create your profile", { className: "btn f-t-0B081C" })
     ),
     a(
-      { href: "/talk" },
+      { href: "/talk", className: "hide-mobile" },
       button("Talk to an expert", { className: "btn-anti mc-b" })
     )
   )
