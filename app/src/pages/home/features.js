@@ -11,7 +11,7 @@ export const homeFeature = div(
       h1("work for your ", { className: "mc-hero-h1" }),
       h1("future.", { className: "mc-hero-h1" }),
       p(
-        "Check out our amazing features and experience the power of Vaultflow for yourself.",
+        "Check out an incredible ecosystem of vibrant Engineers and technologies.",
         { className: "m-top-24" }
       )
     )
