@@ -105,3 +105,19 @@ body {
   user-select: none;
   margin-top: 34px;
 }
+
+.mc-body-features {
+  margin-top: 4rem;
+  max-width: 960px;
+  gap: 32px;
+}
+.mc-body-features .item {
+  width: 578px;
+  height: 372px;
+  padding: 60px;
+  border-radius: 20px;
+  gap: 16px;
+
+  box-shadow: 0px 0.5px 0px 0px #ffffff80 inset, 0px -2px 40px 0px #bb9bff26,
+    0px -2px 10px 0px #e9dfff4d;
+}

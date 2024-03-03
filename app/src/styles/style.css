@@ -101,11 +101,12 @@ a {
 .btn,
 .btn-anti {
   min-width: 173px;
-  height: 40px;
-  padding: 8px 20px 8px 20px;
-  border-radius: 50px;
+  height: 36px;
+  /* padding: 8px 20px 8px 20px; */
+  border-radius: 99px;
   border: 1px;
   gap: 8px;
+  text-align: center;
 }
 .btn-anti {
   background: var(---mc-outline-lte);
@@ -142,6 +143,7 @@ a {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background: var(---mc-bg);
 }
 .row {
   display: -ms-flexbox;

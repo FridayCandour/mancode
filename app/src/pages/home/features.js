@@ -1,5 +1,4 @@
 import { a, button, div, h1, p, span } from "cradova";
-import { BlogCarousel } from "../../components/carousel";
 
 export const homeFeature = div(
   { className: "mc-hero-feature" },
@@ -14,7 +13,11 @@ export const homeFeature = div(
         "Check out an incredible ecosystem of vibrant Engineers and technologies.",
         { className: "m-top-24" }
       )
+    ),
+    div(
+      { className: "flex mc-body-features" },
+      div({ className: "item" }),
+      div({ className: "item" })
     )
-  ),
-  BlogCarousel
+  )
 );
