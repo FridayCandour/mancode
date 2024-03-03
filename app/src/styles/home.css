@@ -31,12 +31,19 @@
 }
 
 .mc-hero-h1 {
-  font-size: 80px;
+  /* font-size: 80px;
   font-weight: 500;
   line-height: 80px;
   letter-spacing: -0.03em;
   text-align: center;
-  color: transparent;
+  color: transparent; */
+  /*  */
+  font-size: 72px;
+  background: -webkit-linear-gradient(145.55deg, #eee, #333);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /*  */
   background: linear-gradient(
     145.55deg,
     #ececec 20.35%,

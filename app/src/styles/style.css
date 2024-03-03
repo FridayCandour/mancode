@@ -2,6 +2,11 @@
 :root {
   ---c-outline: #ececec;
   ---c-color: #0b081c;
+  ---c-font-gradient: linear-gradient(
+    145.55deg,
+    #ececec 20.35%,
+    rgba(236, 236, 236, 0) 128.73%
+  );
 }
 
 /* branding font  */
