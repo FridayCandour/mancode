@@ -10,7 +10,7 @@ export const HomeNav = nav(
       },
     },
     img({ src: "transparent-logo-shot.webp", className: "top-logo" }),
-    span("Mancode", { className: "t-ececec bold pointed fs-22" })
+    span("Mancode", { className: "t-ececec bold pointed fs-18" })
   ),
   div(
     { className: "flex flex-center gap-24 all-t-ececec m-y-auto all-pointed" },

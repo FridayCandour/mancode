@@ -1,4 +1,4 @@
-import { Router, Screen, div, h1, h4, h5, img } from "cradova";
+import { Screen, div } from "cradova";
 
 import { HomeNav } from "../../components/home-navbar";
 
