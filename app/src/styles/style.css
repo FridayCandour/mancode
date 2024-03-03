@@ -29,6 +29,7 @@ body {
 a {
   text-decoration: none;
 }
+
 /* layout */
 .flex {
   display: flex;
@@ -64,21 +65,7 @@ a {
   font-size: 18px;
   text-align: center;
 }
-/* colors */
 
-.t-ececec {
-  color: #ececec;
-}
-.f-t-0B081C {
-  color: #0b081c !important;
-}
-.t-0B081C {
-  color: #0b081c;
-}
-
-.all-t-ececec * {
-  color: #ececec;
-}
 .btn {
   width: Hug 173px;
   height: Hug 40px;
@@ -95,4 +82,19 @@ a {
 }
 .all-pointed * {
   cursor: pointer;
+}
+
+/* colors */
+.t-ececec {
+  color: var(---c-outline);
+}
+.f-t-0B081C {
+  color: var(---c-color) !important;
+}
+.t-0B081C {
+  color: var(---c-color);
+}
+
+.all-t-ececec * {
+  color: var(---c-outline);
 }

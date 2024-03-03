@@ -29,3 +29,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.mc-hero-h1 {
+  font-size: 80px;
+  font-weight: 500;
+  line-height: 80px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(
+    145.55deg,
+    #ececec 20.35%,
+    rgba(236, 236, 236, 0) 128.73%
+  );
+}
