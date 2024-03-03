@@ -1,4 +1,5 @@
 import { a, button, div, h1, h2, p, span } from "cradova";
+import { BlogCarousel } from "../../components/carousel";
 
 export const homeHero = div(
   { className: "mc-hero-bg" },
@@ -23,6 +24,7 @@ export const homeHero = div(
         { href: "/talk" },
         button("Talk to an expert", { className: "btn-anti mc-b" })
       )
-    )
+    ),
+    BlogCarousel
   )
 );
