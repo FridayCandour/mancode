@@ -56,7 +56,10 @@ body {
 .t-center {
   text-align: center;
 }
-
+.fs-22 {
+  font-size: 22px;
+  text-align: center;
+}
 /* colors */
 
 .t-ececec {

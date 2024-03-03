@@ -1,6 +1,9 @@
 import { Router } from "cradova";
-import { forum } from "./pages/forum";
 import { home } from "./pages/home";
+
+import "./styles/index.css";
+import "./styles/style.css";
+import "./styles/home.css";
 
 Router.BrowserRoutes({
   "/": home,
