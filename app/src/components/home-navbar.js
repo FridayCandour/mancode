@@ -15,7 +15,7 @@ export const HomeNav = nav(
   div(
     { className: "flex flex-center gap-24 all-t-ececec m-y-auto all-pointed" },
     a({ href: "/sign-up" }, span("Products")),
-    a({ href: "/sign-up" }, span("Pricing")),
+    a({ href: "/sign-up", className: "hide-mobile" }, span("Pricing")),
     a({ href: "/sign-up" }, span("About us")),
     a(
       { href: "/sign-up", className: "hide-mobile" },

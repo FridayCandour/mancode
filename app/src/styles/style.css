@@ -109,6 +109,9 @@ a {
   gap: 8px;
   text-align: center;
 }
+.hide-o-x {
+  overflow-x: hidden;
+}
 .btn-anti {
   background: var(---mc-outline-lte);
   color: var(---mc-outline);

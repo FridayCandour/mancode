@@ -7,7 +7,9 @@ import brandlogos from "../../../assets/Logos.png";
 export const homeHero = div(
   { className: "mc-hero-bg" },
   div(
-    { className: "m-y-auto flex flex-y flex-center gap-24 mc-hero-top" },
+    {
+      className: "m-y-auto flex flex-y flex-center gap-24 mc-hero-top hide-o-x",
+    },
     div(
       { className: "m-y-auto flex flex-y flex-center gap-4" },
       div(
