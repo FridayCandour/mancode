@@ -1,3 +1,16 @@
+:root {
+  ---c-outline: #ececec;
+  ---c-color: #0b081c;
+}
+
+/* branding font  */
+@font-face {
+  font-family: "Fixel";
+  src: url("../../assets/FixelDisplay/FixelDisplay-Black.woff2") format("woff"),
+    /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ url("myfont.ttf")
+      format("truetype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
 /* reset */
 body {
   background: #000;
@@ -9,16 +22,9 @@ body {
 .flex {
   display: flex;
 }
-
-.flex-x-str {
-  display: flex;
-  width: 100%;
-}
-
-.flex-y-str {
-  display: flex;
-  width: 100%;
-  flex-direction: column;
+.flex-center {
+  align-items: center;
+  justify-content: center;
 }
 
 /* topography */
@@ -44,10 +50,6 @@ body {
   text-align: center;
 }
 
-.all-t-center * {
-  text-align: center;
-}
-
 /* colors */
 
 .t-ececec {
@@ -62,4 +64,12 @@ body {
 
 .all-t-ececec * {
   color: #ececec;
+}
+.btn {
+  width: Hug 173px;
+  height: Hug 40px;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50px;
+  border: 1px;
+  gap: 8px;
 }

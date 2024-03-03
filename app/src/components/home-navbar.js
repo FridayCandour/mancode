@@ -8,11 +8,11 @@ export const HomeNav = nav(
     span("Mancode", { className: "t-ececec" })
   ),
   div(
-    { className: "flex gap-24 all-t-ececec m-y-auto all-t-center" },
+    { className: "flex flex-center gap-24 all-t-ececec m-y-auto" },
     span("Features"),
     span("Pricing"),
     span("About us"),
-    button("Download the app", { className: "f-t-0B081C" }),
-    button("Talk to an expert")
+    button("Download the app", { className: "btn f-t-0B081C" }),
+    button("Talk to an expert", { className: "btn mc-bg mc-b" })
   )
 );
