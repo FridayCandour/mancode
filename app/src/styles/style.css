@@ -39,6 +39,9 @@ a {
 .flex {
   display: flex;
 }
+.flex-y {
+  flex-direction: column;
+}
 .flex-center {
   align-items: center;
   justify-content: center;

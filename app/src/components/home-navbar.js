@@ -19,7 +19,7 @@ export const HomeNav = nav(
     a({ href: "/sign-up" }, span("About us")),
     a(
       { href: "/sign-up" },
-      button("Get Started", { className: "btn f-t-0B081C" })
+      button("Create your profile", { className: "btn f-t-0B081C" })
     ),
     a(
       { href: "/talk" },
