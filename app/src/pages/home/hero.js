@@ -13,11 +13,8 @@ export const homeHero = div(
         },
         div(
           { className: "ticker" },
-          div(
-            { className: "ticker__item" },
-            span("We just raised $20M in Series B"),
-            a("Learn more")
-          )
+          span("We just raised $20M in Series B "),
+          a("Learn more", { href: "/launch" })
         )
       ),
       h1("Modern technologies", { className: "mc-hero-h1" }),

@@ -22,7 +22,7 @@
   transition: transform 0.2s linear;
 }
 .post-slide:hover .post-img img {
-  transform: scale(1.1, 1.1);
+  /* transform: scale(1.1, 1.1); */
 }
 .post-slide .over-layer {
   width: 100%;
