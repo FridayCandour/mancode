@@ -23,7 +23,7 @@ export const HomeNav = nav(
     ),
     a(
       { href: "/talk" },
-      button("Talk to an expert", { className: "btn mc-bg mc-b" })
+      button("Talk to an expert", { className: "btn-anti mc-b" })
     )
   )
 );

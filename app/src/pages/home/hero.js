@@ -3,14 +3,12 @@ import { a, button, div, h1, h2, p, span } from "cradova";
 export const homeHero = div(
   { className: "mc-hero-bg" },
   div(
-    { className: "flex flex-y mc-hero-top" },
-    h1("Modern technologies", { className: "mc-hero-h1" }),
+    { className: "m-y-auto flex flex-y flex-center gap-24 mc-hero-top" },
     div(
-      { className: "m-y-auto" },
+      { className: "m-y-auto flex flex-y flex-center gap-4" },
+      h1("Modern technologies", { className: "mc-hero-h1" }),
       h1("for vibrant engineers", { className: "mc-hero-h1" }),
-      p(
-        `Mancode is a place where vibrant developers collaborate and sell technologies.`
-      ),
+      p(`A place where vibrant developers collaborate and sell technologies.`),
       p(`Join now for the next-gen coding experience!.`)
     ),
     div(
@@ -23,7 +21,7 @@ export const homeHero = div(
       ),
       a(
         { href: "/talk" },
-        button("Talk to an expert", { className: "btn mc-bg mc-b" })
+        button("Talk to an expert", { className: "btn-anti mc-b" })
       )
     )
   )

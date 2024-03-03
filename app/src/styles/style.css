@@ -1,6 +1,7 @@
 /* root */
 :root {
   ---c-outline: #ececec;
+  ---c-outline-lte: #ececec1a;
   ---c-color: #0b081c;
   ---c-font-gradient: -webkit-linear-gradient(
     45deg,
@@ -74,13 +75,18 @@ a {
   text-align: center;
 }
 
-.btn {
-  width: Hug 173px;
-  height: Hug 40px;
+.btn,
+.btn-anti {
+  min-width: 173px;
+  height: 40px;
   padding: 8px 20px 8px 20px;
   border-radius: 50px;
   border: 1px;
   gap: 8px;
+}
+.btn-anti {
+  background: var(---c-outline-lte);
+  color: var(---c-outline);
 }
 .bold {
   font-family: "Fixel-bold";
