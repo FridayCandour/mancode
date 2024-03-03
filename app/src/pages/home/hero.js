@@ -7,6 +7,11 @@ export const homeHero = div(
     { className: "m-y-auto flex flex-y flex-center gap-24 mc-hero-top" },
     div(
       { className: "m-y-auto flex flex-y flex-center gap-4" },
+      p(
+        "Ticker content c/o ",
+        { className: "mc-hero-ticker" },
+        a({ href: "http://hipsum.co/" }, "Hipsum.co")
+      ),
       h1("Modern technologies", { className: "mc-hero-h1" }),
       h1("for vibrant engineers", { className: "mc-hero-h1" }),
       p(`A place where vibrant developers collaborate and sell technologies.`),
