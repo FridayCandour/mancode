@@ -46,7 +46,7 @@ export const BlogCarousel = () => {
               ),
               p(
                 { className: "post-description" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......"
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......"
               ),
               span(
                 { className: "post-date" },
@@ -77,7 +77,7 @@ export const BlogCarousel = () => {
               ),
               p(
                 { className: "post-description" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......"
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......"
               ),
               span(
                 { className: "post-date" },
@@ -108,7 +108,7 @@ export const BlogCarousel = () => {
               ),
               p(
                 { className: "post-description" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......"
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......"
               ),
               span(
                 { className: "post-date" },
@@ -139,7 +139,7 @@ export const BlogCarousel = () => {
               ),
               p(
                 { className: "post-description" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......"
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......"
               ),
               span(
                 { className: "post-date" },
@@ -170,7 +170,7 @@ export const BlogCarousel = () => {
               ),
               p(
                 { className: "post-description" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......"
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......"
               ),
               span(
                 { className: "post-date" },
@@ -201,7 +201,7 @@ export const BlogCarousel = () => {
               ),
               p(
                 { className: "post-description" },
-                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum, ex incidunt ipsa laudantium necessitatibus neque quae tempora......"
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam consectetur cumque dolorum......"
               ),
               span(
                 { className: "post-date" },
