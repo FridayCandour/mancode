@@ -1,0 +1,28 @@
+body {
+  background: #000;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-x-str {
+  display: flex;
+  width: 100%;
+}
+
+.flex-y-str {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.t-ececec {
+  color: #ececec;
+}
+.gap-4 {
+  gap: 4px;
+}
+.m-4 {
+  margin: 4px;
+}

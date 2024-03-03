@@ -1,0 +1,16 @@
+{
+  "name": "mancode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "release": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cradova": "^3.3.8"
+  }
+}
