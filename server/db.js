@@ -1,4 +1,5 @@
 import { Schema, Exabase } from "exabase";
+import post from "../MC-forum/db.js";
 
 export const server = new Schema({
   tableName: "server",
@@ -7,17 +8,6 @@ export const server = new Schema({
     views: { type: Number },
   },
 });
-
-const post = new Schema({
-  tableName: "post",
-  RCT: true,
-  columns: {
-    title: { type: String, length: 100, unique: true },
-    content: { type: String },
-    stats: { type: String },
-  },
-});
-export default post;
 
 export const tracking = new Schema({
   tableName: "tracking",

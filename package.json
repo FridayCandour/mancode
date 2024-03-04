@@ -5,12 +5,16 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "release": ""
+    "release": "",
+    "app": "cd app & run dev",
+    "server": "node server/index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "cradova": "^3.3.8"
+    "cradova": "^3.3.8",
+    "exabase": "^0.0.0-rc-09",
+    "jetpath": "^1.2.32"
   }
 }

@@ -1,5 +1,5 @@
 import { SafeToken } from "safetoken";
-import { tracking, user } from "../db/index.js";
+import { tracking, user } from "./db.js";
 
 /** @typedef {import('jetpath').AppCTX} AppCTX */
 
